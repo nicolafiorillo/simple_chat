@@ -20,7 +20,7 @@ docker run -e PORT=10000 -p 10000:10000 -t simple_chat`
 ```
 
 ## Connect
-Connect to server with telnet:\
+Connect to server with telnet:
 
 ```Bash
 telnet 127.0.0.1 10000`
