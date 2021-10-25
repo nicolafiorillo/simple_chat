@@ -16,7 +16,7 @@ docker build -t simple_chat .
 ## Run server
 
 ```Bash
-docker run -e PORT=10000 -p 10000:10000 -t simple_chat`
+docker run -e PORT=10000 -p 10000:10000 -t simple_chat
 ```
 
 ## Connect
@@ -30,5 +30,5 @@ Type `\q` to quit connection.
 ## Remove built docker image
 
 ```Bash
-docker rmi simple_chat`
+docker rmi simple_chat
 ```
